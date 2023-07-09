@@ -32,7 +32,7 @@ const HomePage = () => {
                 setGenreData(response.data)
                 dispatch(YtActionCreater(response.data))
             } catch (error) {
-                alert(error.message)
+                // alert(error.message)
             }
         };
 

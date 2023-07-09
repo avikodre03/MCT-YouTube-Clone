@@ -220,4 +220,11 @@
     }
 
 }
-  
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .HomePageRightSection {
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid brown; */
+
+    }
+}
