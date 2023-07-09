@@ -102,7 +102,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 If you have any questions or inquiries, please feel free to contact the project owner:
 
-- Name: Your Name
-- Email: your-email@example.com
+- Name: Avinash Kodre.
+- Email: akodre111@example.com
 
 Thank you for using YouTube Clone! We hope you enjoy your Better Video experience.
