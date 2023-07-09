@@ -53,8 +53,8 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
    ```bash
    npm install
    ```
-4. Create a .env file in the root of the project and provide the necessary environment variables:<br>
-    **REACT_APP_RAPIDAPI_HOST=your_rapidapi_host**
+4. Create a .env file in the root of the project and provide the necessary environment variables:<br><br>
+    **REACT_APP_RAPIDAPI_HOST=your_rapidapi_host**br>
     **REACT_APP_RAPIDAPI_KEY=your_rapidapi_key**<br>
   You can obtain your RapidAPI host and key by signing up for an account at RapidAPI.
   
