@@ -22,7 +22,8 @@ const HomePage = () => {
                 method: 'GET',
                 url: 'https://imdb-top-100-movies.p.rapidapi.com/',
                 headers: {
-                    'X-RapidAPI-Key': 'df6787ae2cmsh0433e112b9ec312p1151a1jsn984a4ac77f55',
+                    
+                    'X-RapidAPI-Key': '5263789e7fmsh51448262556796ep1ce5a9jsn7fd8a3e50986',
                     'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
                 }
             };
@@ -32,7 +33,7 @@ const HomePage = () => {
                 setGenreData(response.data)
                 dispatch(YtActionCreater(response.data))
             } catch (error) {
-                // alert(error.message)
+                alert(error.message)
             }
         };
 

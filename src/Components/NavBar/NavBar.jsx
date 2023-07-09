@@ -9,6 +9,7 @@ import { BsFillMicFill } from 'react-icons/bs';
 import { CgProfile } from 'react-icons/cg';
 import { useDispatch } from 'react-redux'
 import { toggleActionCreater } from '../../Redux/ActionsCreaters/toggleActionCreater'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   const dispatch=useDispatch()
@@ -22,7 +23,9 @@ const NavBar = () => {
         ><VscThreeBars/></button>
       </div>
       <div className="ytLogo">
+        <Link to={"/"}>
         <img src={logo} alt="ytLogo" />
+        </Link>
       </div>
       <div className="navBarSearchSection">
       <input type="Search" placeholder="Search" name="Search" id="Search"/>
