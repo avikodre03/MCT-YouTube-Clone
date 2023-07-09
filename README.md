@@ -3,7 +3,8 @@
 This project is a YouTube clone built using React.js. It utilizes React Router DOM for routing, the Axios library for handling API requests, and the RapidAPI platform for accessing YouTube data and the Redux library for managing application state.
 
 <p align="center">
-<img src="https://drive.google.com/file/d/1y2Ka7Kh-NganTJHyFzANzNpXrsL7JYvS/view?usp=sharing" width="400" height="300" />
+   ![alt text](https://drive.google.com/file/d/1y2Ka7Kh-NganTJHyFzANzNpXrsL7JYvS/view?usp=sharing)
+<!-- <img src="https://drive.google.com/file/d/1y2Ka7Kh-NganTJHyFzANzNpXrsL7JYvS/view?usp=sharing" width="400" height="300" /> -->
 </p>
 
 ## Features
