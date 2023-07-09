@@ -53,9 +53,12 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
    ```bash
    npm install
    ```
-4. Create a .env file in the root of the project and provide the necessary environment variables:<br><br>
-    REACT_APP_RAPIDAPI_HOST=your_rapidapi_host
-    REACT_APP_RAPIDAPI_KEY=your_rapidapi_key<br><br>
+4. Create a .env file in the root of the project and provide the necessary environment variables:<br>
+    
+<p align="right">
+<img src="https://github.com/avikodre03/MCT-YouTube-Clone/assets/116943966/0231f07b-6efe-4240-b697-ba3583d3215a" width="300" height="100" />
+</p>
+   <br>
   You can obtain your RapidAPI host and key by signing up for an account at RapidAPI.
   
 5. In a separate terminal, start the development server:
