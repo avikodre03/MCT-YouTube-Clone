@@ -1,4 +1,4 @@
-![HomePage](https://github.com/avikodre03/MCT-YouTube-Clone/assets/116943966/01324242-42c8-448e-98ed-dd81f3f0c3af)# YouTube Clone
+# YouTube Clone
 
 This project is a YouTube clone built using React.js. It utilizes React Router DOM for routing, the Axios library for handling API requests, and the RapidAPI platform for accessing YouTube data and the Redux library for managing application state.
 
