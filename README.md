@@ -20,7 +20,7 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
 
 ## Features
 
-- User-friendly interface with a responsive design.
+- User-friendly dark theme interface with a responsive design.
 - Browse and Filter videos click on button.
 - Watch videos.
 - Display video details (title, description, views, likes, etc.).
