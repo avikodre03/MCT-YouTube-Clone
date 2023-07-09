@@ -3,7 +3,7 @@
 This project is a YouTube clone built using React.js. It utilizes React Router DOM for routing, the Axios library for handling API requests, and the RapidAPI platform for accessing YouTube data and the Redux library for managing application state.
 
 <P align="center">
-   **Home Page**<br>
+   <strong>Home Page</strong><br>
    <p/>
       
 <p align="center">
@@ -11,7 +11,7 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
 </p>
 
 <P align="center">
-**Watch Page**<br>
+<strong>Watch Page</strong><br>
    <p/>
       
 <p align="center">
@@ -77,7 +77,7 @@ A hosted version of this project can be found [here](https://mct-you-tube-clone.
 
 ## Video Explaination
 
-OverView of This project can be found [here](https://drive.google.com/file/d/10Ji1AVMRhUzPECi7NLKScpcOtw3iTI-Y/view?usp=drive_link)
+Overview of This project can be found [here](https://drive.google.com/file/d/10Ji1AVMRhUzPECi7NLKScpcOtw3iTI-Y/view?usp=drive_link)
 
 ## Contributing
 
