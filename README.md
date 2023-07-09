@@ -3,7 +3,7 @@
 This project is a YouTube clone built using React.js. It utilizes React Router DOM for routing, the Axios library for handling API requests, and the RapidAPI platform for accessing YouTube data and the Redux library for managing application state.
 
 <P align="center">
-   ####Home Page
+   **Home Page**<br>
    <p/>
       
 <p align="center">
@@ -11,7 +11,7 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
 </p>
 
 <P align="center">
-   ####  Watch Page
+**Watch Page**<br>
    <p/>
       
 <p align="center">
