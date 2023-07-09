@@ -1,0 +1,223 @@
+.HomePage {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 90%;
+    display: flex;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.HomePageRightSection {
+    width: 84%;
+    height: 100%;
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex; */
+
+}
+
+.HomePageRightSectionTop {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid darkmagenta; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    padding: 0 .7rem;
+    overflow-y: scroll;
+
+
+}
+
+.HomePageRightSectionTop button {
+    width: fit-content;
+    padding: .5rem 1rem;
+    background-color: rgb(79, 79, 79);
+    border-radius: 15px;
+    margin: .2rem;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+.HomePageRightSectionTop button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.buttonActive {
+    background-color: white;
+    color: black;
+}
+
+.HomePageRightSectionBottom {
+    height: 90%;
+    width: 100%;
+    /* border: 2px solid gold; */
+    /* padding: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.HomePageRightSectionBottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.HomePageRightSectionBottom .videoContainer {
+    height: 300px;
+    width: 370px;
+    /* border: 1px solid grey; */
+    box-shadow: 0 0 5px rgba(87, 86, 86, 0.354);
+    margin: 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.HomePageRightSectionBottom .videoContainer:hover {
+
+    box-shadow: 0 0 6px rgba(87, 86, 86, 0.6);
+}
+
+.videoContainerImg {
+    height: 65%;
+    width: 100%;
+    /* border-radius: 15px; */
+}
+
+.videoContainerImg img:hover,
+.videoContainerImg:hover {
+    border-radius: 0px;
+
+}
+
+.videoContainerImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.descriptionContainer {
+    height: 35%;
+    width: 100%;
+    /* border: 2px solid gold; */
+    display: flex;
+}
+
+.descriptionContainerImg {
+    height: 100%;
+    width: 15%;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionContainerImg img {
+    margin: 15px 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.descriptionContainerTitle {
+    height: 100%;
+    width: 75%;
+    /* border: 2px solid red; */
+    padding: 10px 0;
+}
+
+.descriptionContainerTitle h3 {
+    margin-bottom: 10px;
+}
+
+.descriptionContainerTitle p {
+    color: pink;
+}
+
+.threeDots {
+    height: 100%;
+    width: 10%;
+    /* border: 2px solid blue; */
+    text-align: end;
+    padding-top: 10px;
+}
+
+.threeDots svg {
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+/* Responsive */
+
+@media only screen and (min-width:1023px) and (max-width:1400px) {
+    .HomePageRightSectionBottom .videoContainer {
+        height: 280px;
+        width: 350px;
+        /* border: 1px solid grey; */
+        box-shadow: 0 0 5px rgba(87, 86, 86, 0.354);
+        margin: .7rem;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:1000px) {
+    .HomePageRightSection {
+        width: 80%;
+        height: 100%;
+        /* border: 2px solid brown; */
+
+    }
+
+    .HomePageRightSectionBottom .videoContainer {
+        height: 250px;
+        width: 270px;
+        margin: .5rem;
+      
+    }
+
+
+
+    .descriptionContainerImg img {
+        margin: 12px 0;
+        width: 25px;
+        height: 25px;
+       
+    }
+
+    .descriptionContainerTitle {
+        padding-top: 10;
+    }
+
+    .descriptionContainerTitle h3 {
+        margin-bottom: 5px;
+        font-weight: 600;
+        font-size: .9rem;
+       
+    }
+
+    .descriptionContainerTitle span { 
+        font-size: .8rem;
+    }
+    .descriptionContainerTitle p {
+        font-size: .7rem;
+    }
+    .threeDots svg {
+        font-size: 1rem;
+    }
+
+}
+  

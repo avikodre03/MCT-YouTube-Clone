@@ -1,0 +1,374 @@
+.NavBar {
+    height: 10%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+.treelineDiv {
+    height: 100%;
+    color: white;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.treelineDiv button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    background: transparent;
+    color: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.treelineDiv button:hover {
+    background-color: rgba(128, 128, 128, 0.372);
+}
+
+.ytLogo {
+    height: 100%;
+    width: 20%;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+}
+
+.ytLogo img {
+    height: 80%;
+    width: 50%;
+}
+
+.navBarSearchSection {
+    height: 65%;
+    width: 40%;
+    /* border: .5px solid grey; */
+    margin-left: 1rem;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: flex;
+}
+
+.navBarSearchSection input {
+    height: 100%;
+    width: 88%;
+    outline: none;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    padding-left: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    border: .5px solid grey;
+}
+
+.navBarSearchSection input::placeholder {
+    color: grey;
+    font-size: 1rem;
+}
+
+.navBarSearchSection .searchDiv {
+    height: 100%;
+    width: 12%;
+    border: .5px solid grey;
+    color: white;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+
+.navBarSearchSection .searchDiv svg {
+    font-size: 1.4rem;
+    color: white;
+    padding-bottom: 2px;
+}
+
+.NavBar .micDiv {
+    height: 40px;
+    width: 40px;
+    background-color: rgba(6, 6, 6, 0.591);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.NavBar .micDiv:hover {
+    background-color: rgba(128, 128, 128, 0.372);
+}
+
+.NavBar .micDiv svg {
+    font-size: 1.2rem;
+}
+
+.NavBarRightSection {
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 25%;
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 0 1rem; */
+    padding: 0 1rem;
+}
+
+.NavBarRightSection img {
+    width: 60px;
+    height: 50px;
+}
+
+.NavBarRightSection .profile {
+    border: 1px solid rgba(137, 43, 226, 0.61);
+    padding: 5px;
+    width: 32%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.NavBarRightSection .profile p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBarRightSection .profile svg {
+    font-size: 1.5rem;
+    margin-right: 7px;
+
+}
+
+/* Responsive */
+
+@media only screen and (min-width:950px) and (max-width:1400px) {
+    .NavBarRightSection .profile {
+        width: 45%;
+
+    }
+
+    .NavBarRightSection .profile p {
+        font-size: 1rem;
+    }
+
+    .NavBarRightSection .profile svg {
+        font-size: 1rem;
+
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width:1000px) {
+    .treelineDiv {
+        margin-left: .7rem;
+    }
+
+    .treelineDiv button {
+        height: 40px;
+        width: 40px;
+    }
+
+    .ytLogo img {
+        height: 70%;
+        width: 70%;
+    }
+
+    .navBarSearchSection {
+        height: 60%;
+    }
+
+    .navBarSearchSection input {
+        width: 84%;
+        font-size: 1rem;
+    }
+
+    .navBarSearchSection input::placeholder {
+        font-size: .8rem;
+    }
+
+    .navBarSearchSection .searchDiv {
+        width: 16%;
+    }
+
+    .navBarSearchSection .searchDiv svg {
+        font-size: 1.2rem;
+
+    }
+
+    .NavBar .micDiv {
+        height: 35px;
+        width: 35px;
+        margin-left: .7rem;
+    }
+
+
+
+    .NavBar .micDiv svg {
+        font-size: 1rem;
+    }
+
+    .NavBarRightSection {
+        margin-left: 2rem;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+
+    .NavBarRightSection img {
+        width: 50px;
+        height: 40px;
+    }
+
+    .NavBarRightSection .profile {
+        width: 65%;
+    }
+
+    .NavBarRightSection .profile p {
+        font-size: .7rem;
+    }
+
+    .NavBarRightSection .profile svg {
+        font-size: 1rem;
+
+    }
+}
+@media only screen and (min-width:320px) and (max-width:700px){
+    
+    
+    .treelineDiv button {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+   
+    .ytLogo {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ytLogo img {
+        height: 50%;
+        width: 80%;
+    }
+    
+    .navBarSearchSection {
+        height: 50%;
+        width: 40%;
+        margin-left:0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      
+    }
+    
+    .navBarSearchSection input {
+        height: 100%;
+        width: 80%;
+        outline: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-left: 5px;
+        background: transparent;
+        border: none;
+        color: white;
+        font-size: .7rem;
+        border: .5px solid grey;
+    }
+    
+    .navBarSearchSection input::placeholder {
+        color: grey;
+        font-size: .7rem;
+    }
+    
+    .navBarSearchSection .searchDiv {
+        height: 100%;
+        width: 20%;
+        border: .5px solid grey;
+        color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(128, 128, 128, 0.199);
+    }
+    
+    .navBarSearchSection .searchDiv svg {
+        font-size: .8rem;
+        padding-bottom: 2px;
+    }
+    
+    .NavBar .micDiv {
+        height: 30px;
+        width: 30px;
+        background-color: rgba(6, 6, 6, 0.591);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 3px;
+    }
+    
+    
+    .NavBar .micDiv svg {
+        font-size: .8rem;
+    }
+    
+    .NavBarRightSection {
+       
+        height: 100%;
+        width: 25%;
+        margin-left: 0rem;
+        
+        padding: 0 ;
+    }
+    
+    .NavBarRightSection img {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .NavBarRightSection .profile {
+        border: 1px solid rgba(137, 43, 226, 0.61);
+        padding: 2px;
+        width: 70%;
+        height: 50%;
+        border-radius: 8px;
+        
+    }
+    
+    .NavBarRightSection .profile p {
+        font-size: .4rem;
+        margin-bottom: 2px;
+       
+    }
+    
+    .NavBarRightSection .profile svg {
+        font-size: .5rem;
+        margin-right: 3;
+    
+    }
+    
+}
