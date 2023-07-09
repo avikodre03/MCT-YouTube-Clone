@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# YouTube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a YouTube clone built using React.js. It utilizes React Router DOM for routing, the Axios library for handling API requests, and the RapidAPI platform for accessing YouTube data and the Redux library for managing application state.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User-friendly interface with a responsive design.
+- Browse and Filter videos click on button.
+- Watch videos.
+- Display video details (title, description, views, likes, etc.).
+- Related videos suggestions.
+- Integration with Axios for making HTTP requests to the API.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- Redux: A state management library for managing application state.
+- React Router DOM: A routing library for handling navigation between different pages.
+- Axios: A library for making HTTP requests to the mock API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/your-username/MCT-YouTube-Clone.git
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   cd youtube-clone
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install the dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
+5. In a separate terminal, start the development server:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Open your browser and visit http://localhost:3000 to access youtube-clone.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Home: The default page displays a list of All trending videos and allows you to Filter for videos using the Scroll bar.
+- Video Details: Clicking on a video thumbnail will take you to the video details page, where you can watch the video, read the description, view video statistics, and browse related videos.
+- SideBar: When route watch page then on click in side bar button retun to home page
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## API
 
-## Learn More
+This project uses the YouTube Data API provided by RapidAPI to fetch video data. You can find the RapidAPI documentation [here](https://rapidapi.com/hub).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Hosted Version
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A hosted version of this project can be found [here](https://mct-you-tube-clone.vercel.app/).
 
-### Code Splitting
+## Video Explaination
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+OverView of This project can be found [here](https://drive.google.com/file/d/10Ji1AVMRhUzPECi7NLKScpcOtw3iTI-Y/view?usp=drive_link)
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- The creators and maintainers of the React, Redux, React Router DOM, and Axios libraries.
+- Special thanks to the contributors of the open-source packages used in this project.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you have any questions or inquiries, please feel free to contact the project owner:
 
-### `npm run build` fails to minify
+- Name: Your Name
+- Email: your-email@example.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using YouTube Clone! We hope you enjoy your Better Video experience.
