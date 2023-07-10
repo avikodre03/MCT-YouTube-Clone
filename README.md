@@ -7,7 +7,7 @@ This project is a YouTube clone built using React.js. It utilizes React Router D
    <p/>
       
 <p align="center">
-<img src="https://github.com/avikodre03/MCT-YouTube-Clone/assets/116943966/38a83c94-592c-4a3b-83fb-409370ba5cd6" width="500" height="300" />
+<img src="https://github.com/avikodre03/MCT-YouTube-Clone/assets/116943966/4e7339a0-fa19-45b6-86b5-7b0be16f4eb6" width="500" height="300" />
 </p>
 
 <P align="center">
@@ -103,6 +103,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 If you have any questions or inquiries, please feel free to contact the project owner:
 
 - Name: Avinash Kodre.
-- Email: akodre111@example.com
+- Email: akodre111@gmail.com
 
 Thank you for using YouTube Clone! We hope you enjoy your Better Video experience.
