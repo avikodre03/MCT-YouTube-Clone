@@ -31,13 +31,15 @@ const WatchPage = () => {
       {Videodata && (
 
         <div className="WatchPageVideoContainer">
-          <iframe src={Videodata[0] && Videodata[0].trailer} frameborder="0"></iframe>
+          {/* <iframe src={Videodata[0] && Videodata[0].trailer} frameborder="0"></iframe> */}
+          <iframe src="https://www.youtube.com/embed/NmzuHjWmXOc" frameborder="0"></iframe>
           <h2>{Videodata[0] && Videodata[0].title}</h2>
           <div className="WatchPageVideoContainerBottom">
             <div className="WatchPageVideoContainerBottomLeftContainer">
               <img src={Videodata[0] && Videodata[0].thumbnail} alt="img" />
               <div className="channelName">
-                <h4>{Videodata[0] && Videodata[0].director[0]}</h4>
+                <h4>Frank Darabont</h4>
+                {/* <h4>{Videodata[0] && Videodata[0].director[0]}</h4> */}
                 <p>100k subscribers</p>
               </div>
               <button>Subscribe</button>
@@ -89,7 +91,8 @@ const WatchPage = () => {
                 </div>
                 <div className="details">
                   <h3>{ele && ele.title}</h3>
-                  <p>{ele && ele.director[0]}</p>
+                  {/* <p>{ele && ele.director[0]}</p> */}
+                  <p>Frank Darabont</p>
                   <span>{ele && ele.rating} rating - year <span>{ele && ele.year}</span></span>
                 </div>
 

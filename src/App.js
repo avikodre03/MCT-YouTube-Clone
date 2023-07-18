@@ -11,7 +11,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
-        
+
         <Route path='/watchPage/:id' element={<WatchPage/>}/>
       </Routes>
     
